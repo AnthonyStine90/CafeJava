@@ -8,10 +8,10 @@ public class CafeJava {
         String displayTotalMessage = "Your total is $";
         
         // Menu variables (add yours below)
-        double mochaPrice = 3.5;
-        double dripCoffee = 2;
-        double latte = 4;
-        double cappuccino = 5;
+        double mochaPrice = 3.50;
+        double dripCoffee = 2.0;
+        double latte = 5.0;
+        double cappuccino = 5.0;
     
         // Customer name variables (add yours below)
         String customer1 = "Cindhuri";
@@ -33,7 +33,7 @@ public class CafeJava {
 
 
         System.out.println(customer2 + ", " + (displayTotalMessage + (latte + latte)));
-        
+
         if(orderStatus) {
           System.out.println(customer2 + readyMessage);
         }
